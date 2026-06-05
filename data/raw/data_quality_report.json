@@ -1,0 +1,161 @@
+{
+  "report_generated_utc": "2026-06-05T20:20:31.102096+00:00",
+  "summary": {
+    "total_cities": 15,
+    "missing_files": [],
+    "failed_downloads": [],
+    "issues_detected": false
+  },
+  "per_city": {
+    "Bengaluru": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 138545,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.072821+00:00",
+      "duration_seconds": 0.0
+    },
+    "Chennai": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 140528,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.073861+00:00",
+      "duration_seconds": 0.0
+    },
+    "Hyderabad": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 138144,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.075268+00:00",
+      "duration_seconds": 0.0
+    },
+    "Kochi": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 141598,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.076854+00:00",
+      "duration_seconds": 0.0
+    },
+    "Mangalore": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 139349,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.077810+00:00",
+      "duration_seconds": 0.0
+    },
+    "Mumbai": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 139693,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.079253+00:00",
+      "duration_seconds": 0.0
+    },
+    "Pune": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 138193,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.080857+00:00",
+      "duration_seconds": 0.0
+    },
+    "Ahmedabad": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 138971,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.081900+00:00",
+      "duration_seconds": 0.0
+    },
+    "Delhi": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 137462,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.082988+00:00",
+      "duration_seconds": 0.0
+    },
+    "Chandigarh": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 137771,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.084083+00:00",
+      "duration_seconds": 0.0
+    },
+    "Jaipur": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 137665,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.085513+00:00",
+      "duration_seconds": 0.0
+    },
+    "Kolkata": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 140426,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.086586+00:00",
+      "duration_seconds": 0.0
+    },
+    "Bhubaneswar": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 139733,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.088229+00:00",
+      "duration_seconds": 0.0
+    },
+    "Bhopal": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 137685,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.089744+00:00",
+      "duration_seconds": 0.0
+    },
+    "Guwahati": {
+      "status": "skipped",
+      "file_exists": true,
+      "file_size_bytes": 138672,
+      "row_count": 2192,
+      "validation_status": "pass",
+      "validation_detail": "ok",
+      "downloaded_at_utc": "2026-06-05T20:20:31.091020+00:00",
+      "duration_seconds": 0.0
+    }
+  }
+}

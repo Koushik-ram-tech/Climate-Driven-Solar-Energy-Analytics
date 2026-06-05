@@ -1,0 +1,248 @@
+{
+  "dataset_name": "Indian Urban Climate Data (NASA POWER)",
+  "description": "Daily meteorological observations for 15 major Indian cities sourced from NASA POWER Prediction Of Worldwide Energy Resources API.",
+  "download_timestamp_utc": "2026-06-05T20:20:31.101713+00:00",
+  "date_range": {
+    "start": "20190101",
+    "end": "20241231"
+  },
+  "parameters": {
+    "T2M": "Temperature at 2m height (\u00b0C)",
+    "T2M_MAX": "Daily maximum temperature at 2m (\u00b0C)",
+    "T2M_MIN": "Daily minimum temperature at 2m (\u00b0C)",
+    "RH2M": "Relative humidity at 2m (%)",
+    "PS": "Surface pressure (kPa)",
+    "WS10M": "Wind speed at 10m height (m/s)",
+    "CLOUD_AMT": "Cloud amount (%)",
+    "PRECTOTCORR": "Bias-corrected total precipitation (mm/day)",
+    "ALLSKY_SFC_SW_DWN": "All-sky surface shortwave downward irradiance / GHI (kWh/m\u00b2/day)",
+    "ALLSKY_SFC_SW_DNI": "All-sky surface shortwave direct normal irradiance / DNI (kWh/m\u00b2/day)"
+  },
+  "api_source": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "community": "RE (Renewable Energy)",
+  "cities": {
+    "Bengaluru": {
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "Chennai": {
+      "latitude": 13.0827,
+      "longitude": 80.2707
+    },
+    "Hyderabad": {
+      "latitude": 17.385,
+      "longitude": 78.4867
+    },
+    "Kochi": {
+      "latitude": 9.9312,
+      "longitude": 76.2673
+    },
+    "Mangalore": {
+      "latitude": 12.9141,
+      "longitude": 74.856
+    },
+    "Mumbai": {
+      "latitude": 19.076,
+      "longitude": 72.8777
+    },
+    "Pune": {
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    "Ahmedabad": {
+      "latitude": 23.0225,
+      "longitude": 72.5714
+    },
+    "Delhi": {
+      "latitude": 28.6139,
+      "longitude": 77.209
+    },
+    "Chandigarh": {
+      "latitude": 30.7333,
+      "longitude": 76.7794
+    },
+    "Jaipur": {
+      "latitude": 26.9124,
+      "longitude": 75.7873
+    },
+    "Kolkata": {
+      "latitude": 22.5726,
+      "longitude": 88.3639
+    },
+    "Bhubaneswar": {
+      "latitude": 20.2961,
+      "longitude": 85.8245
+    },
+    "Bhopal": {
+      "latitude": 23.2599,
+      "longitude": 77.4126
+    },
+    "Guwahati": {
+      "latitude": 26.1445,
+      "longitude": 91.7362
+    }
+  },
+  "statistics": {
+    "total_cities": 15,
+    "successful_downloads": 0,
+    "skipped_downloads": 15,
+    "failed_downloads": 0,
+    "total_rows_downloaded": 32880,
+    "total_size_bytes": 2084435,
+    "total_size_mb": 1.99,
+    "avg_rows_per_city": 2192.0,
+    "avg_download_seconds": 0.0
+  },
+  "city_details": [
+    {
+      "city": "Bengaluru",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 138545,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=77.5946&latitude=12.9716&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.072821+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Chennai",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 140528,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=80.2707&latitude=13.0827&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.073861+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Hyderabad",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 138144,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=78.4867&latitude=17.385&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.075268+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Kochi",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 141598,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=76.2673&latitude=9.9312&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.076854+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Mangalore",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 139349,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=74.856&latitude=12.9141&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.077810+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Mumbai",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 139693,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=72.8777&latitude=19.076&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.079253+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Pune",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 138193,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=73.8567&latitude=18.5204&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.080857+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Ahmedabad",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 138971,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=72.5714&latitude=23.0225&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.081900+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Delhi",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 137462,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=77.209&latitude=28.6139&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.082988+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Chandigarh",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 137771,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=76.7794&latitude=30.7333&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.084083+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Jaipur",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 137665,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=75.7873&latitude=26.9124&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.085513+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Kolkata",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 140426,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=88.3639&latitude=22.5726&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.086586+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Bhubaneswar",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 139733,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=85.8245&latitude=20.2961&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.088229+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Bhopal",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 137685,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=77.4126&latitude=23.2599&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.089744+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    },
+    {
+      "city": "Guwahati",
+      "status": "skipped",
+      "rows": 2192,
+      "size_bytes": 138672,
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MAX,T2M_MIN,RH2M,PS,WS10M,CLOUD_AMT,PRECTOTCORR,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_SW_DNI&community=RE&longitude=91.7362&latitude=26.1445&start=20190101&end=20241231&format=CSV",
+      "downloaded_at_utc": "2026-06-05T20:20:31.091020+00:00",
+      "duration_seconds": 0.0,
+      "validation_reason": "ok"
+    }
+  ]
+}
