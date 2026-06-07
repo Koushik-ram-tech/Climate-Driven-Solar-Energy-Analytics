@@ -1,0 +1,97 @@
+{
+  "notebook": "06_preprocessing_feature_engineering",
+  "final_features": [
+    "T2M_MAX",
+    "TEMP_RANGE",
+    "RH2M",
+    "PS",
+    "WS10M",
+    "CLOUD_AMT",
+    "PRECTOTCORR",
+    "YEAR",
+    "MONTH",
+    "DAY_OF_YEAR",
+    "WEEK_OF_YEAR",
+    "MONTH_SIN",
+    "MONTH_COS",
+    "DOY_SIN",
+    "DOY_COS",
+    "TEMP_RANGE_X_CLOUD",
+    "T2M_MAX_X_RH",
+    "WS10M_X_CLOUD",
+    "CITY_SOLAR_MEAN"
+  ],
+  "base_features": [
+    "T2M_MAX",
+    "TEMP_RANGE",
+    "RH2M",
+    "PS",
+    "WS10M",
+    "CLOUD_AMT",
+    "PRECTOTCORR"
+  ],
+  "temporal_features": [
+    "YEAR",
+    "MONTH",
+    "DAY_OF_YEAR",
+    "WEEK_OF_YEAR"
+  ],
+  "cyclical_features": [
+    "MONTH_SIN",
+    "MONTH_COS",
+    "DOY_SIN",
+    "DOY_COS"
+  ],
+  "interaction_features": [
+    "TEMP_RANGE_X_CLOUD",
+    "T2M_MAX_X_RH",
+    "WS10M_X_CLOUD"
+  ],
+  "city_feature": "CITY_SOLAR_MEAN",
+  "target": "ALLSKY_SFC_SW_DWN",
+  "target_energy": "ENERGY_OUTPUT",
+  "train_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "test_years": [
+    2023,
+    2024
+  ],
+  "city_train_encoding": {
+    "Ahmedabad": 5.341082683093771,
+    "Bengaluru": 5.2606266940451745,
+    "Bhopal": 5.019397193702943,
+    "Bhubaneswar": 4.669990965092402,
+    "Chandigarh": 5.076773511293635,
+    "Chennai": 5.078658453114305,
+    "Delhi": 4.7095207392197125,
+    "Guwahati": 4.2634942505133475,
+    "Hyderabad": 5.0486518138261465,
+    "Jaipur": 5.173373169062287,
+    "Kochi": 5.252810677618069,
+    "Kolkata": 4.429958932238193,
+    "Mangalore": 5.144335660506502,
+    "Mumbai": 5.089574195756332,
+    "Pune": 4.922958521560575
+  },
+  "dropped_features": [
+    "T2M",
+    "T2M_MIN"
+  ],
+  "drop_reason": {
+    "T2M": "VIF=173.59 \u2014 severe multicollinearity",
+    "T2M_MIN": "Perfect collinearity with T2M_MAX + TEMP_RANGE"
+  },
+  "energy_params": {
+    "panel_efficiency": 0.2,
+    "formula": "ENERGY_OUTPUT = ALLSKY_SFC_SW_DWN * panel_efficiency"
+  },
+  "scaler_path": "data/processed/scaler.pkl",
+  "train_csv_path": "data/processed/train.csv",
+  "test_csv_path": "data/processed/test.csv",
+  "train_scaled_path": "data/processed/train_scaled.csv",
+  "test_scaled_path": "data/processed/test_scaled.csv"
+}
