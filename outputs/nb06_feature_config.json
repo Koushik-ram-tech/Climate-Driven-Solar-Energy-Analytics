@@ -1,0 +1,24 @@
+{
+  "target": "ALLSKY_SFC_SW_DWN",
+  "features": [
+    "T2M_MAX",
+    "TEMP_RANGE",
+    "RH2M",
+    "PS",
+    "WS10M",
+    "CLOUD_AMT",
+    "PRECTOTCORR"
+  ],
+  "dropped": [
+    "T2M"
+  ],
+  "engineered": [
+    "TEMP_RANGE"
+  ],
+  "notes": {
+    "split": "temporal \u2014 train 2019-2022, test 2023-2024",
+    "scaling": "StandardScaler on all features",
+    "precipitation": "consider log1p transform",
+    "outliers": "do not delete \u2014 outliers carry risk labels"
+  }
+}
