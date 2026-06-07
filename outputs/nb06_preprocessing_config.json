@@ -1,0 +1,74 @@
+{
+  "target": "ALLSKY_SFC_SW_DWN",
+  "features_core": [
+    "T2M_MAX",
+    "TEMP_RANGE",
+    "RH2M",
+    "PS",
+    "WS10M",
+    "CLOUD_AMT",
+    "log1p_PREC"
+  ],
+  "features_extended": [
+    "T2M_MAX",
+    "TEMP_RANGE",
+    "RH2M",
+    "PS",
+    "WS10M",
+    "CLOUD_AMT",
+    "log1p_PREC",
+    "MONTH_SIN",
+    "MONTH_COS",
+    "IS_MONSOON",
+    "DAY_OF_YEAR",
+    "CITY_Ahmedabad",
+    "CITY_Bengaluru",
+    "CITY_Bhopal",
+    "CITY_Bhubaneswar",
+    "CITY_Chandigarh",
+    "CITY_Chennai",
+    "CITY_Delhi",
+    "CITY_Guwahati",
+    "CITY_Hyderabad",
+    "CITY_Jaipur",
+    "CITY_Kochi",
+    "CITY_Kolkata",
+    "CITY_Mangalore",
+    "CITY_Mumbai",
+    "CITY_Pune"
+  ],
+  "dropped_from_nb05": [
+    "T2M",
+    "T2M_MIN"
+  ],
+  "engineered": {
+    "TEMP_RANGE": "T2M_MAX - T2M_MIN",
+    "log1p_PREC": "log1p(PRECTOTCORR)",
+    "MONTH_SIN": "sin(2\u03c0 \u00d7 MONTH / 12)",
+    "MONTH_COS": "cos(2\u03c0 \u00d7 MONTH / 12)",
+    "IS_MONSOON": "1 if SEASON == Monsoon else 0",
+    "DAY_OF_YEAR": "date.dayofyear"
+  },
+  "split": {
+    "strategy": "temporal",
+    "train_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "test_years": [
+      2023,
+      2024
+    ],
+    "train_rows": 21915,
+    "test_rows": 10965
+  },
+  "scaling": {
+    "class": "StandardScaler",
+    "fit_on": "train set only",
+    "scaler_core": "outputs/scaler_core.pkl",
+    "scaler_ext": "outputs/scaler_extended.pkl"
+  },
+  "outliers": "no rows deleted \u2014 outliers carry risk labels (NB05 decision)"
+}

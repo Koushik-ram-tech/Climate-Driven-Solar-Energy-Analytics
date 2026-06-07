@@ -1,0 +1,2 @@
+Model,Train R²,Test R²,Train MAE,Test MAE,Train RMSE,Test RMSE,Train MAPE,Test MAPE
+XGBoost,0.8342,0.816,0.4461,0.4688,0.5873,0.62,11.76,12.88

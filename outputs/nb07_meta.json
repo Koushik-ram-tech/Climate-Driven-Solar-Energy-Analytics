@@ -1,0 +1,27 @@
+{
+  "best_baseline_model": "Random Forest",
+  "best_baseline_test_r2": 0.8162,
+  "best_baseline_test_rmse": 0.6196,
+  "best_baseline_test_mae": 0.4662,
+  "models_trained": [
+    "Linear Regression",
+    "Ridge Regression",
+    "Random Forest"
+  ],
+  "ridge_best_alpha": 5.689866029018299,
+  "rf_best_depth": 12,
+  "features_used": "features_extended",
+  "scaler": "scaler_extended.pkl",
+  "train_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "test_years": [
+    2023,
+    2024
+  ],
+  "note_for_nb08": "XGBoost must beat best_baseline_test_r2 on the same test set",
+  "note_for_nb09": "Load random_forest_model.pkl or nb07_best_model.pkl for SHAP"
+}
