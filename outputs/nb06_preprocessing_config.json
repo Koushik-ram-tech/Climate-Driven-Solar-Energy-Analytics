@@ -7,7 +7,20 @@
     "PS",
     "WS10M",
     "CLOUD_AMT",
-    "log1p_PREC"
+    "log1p_PREC",
+    "WIND_CLOUD"
+  ],
+  "features_temporal": [
+    "MONTH_SIN",
+    "MONTH_COS",
+    "IS_MONSOON",
+    "DAY_OF_YEAR"
+  ],
+  "features_lag": [
+    "GHI_LAG1",
+    "RH2M_LAG1",
+    "CLOUD_LAG1",
+    "GHI_7DAY_MEAN"
   ],
   "features_extended": [
     "T2M_MAX",
@@ -17,10 +30,15 @@
     "WS10M",
     "CLOUD_AMT",
     "log1p_PREC",
+    "WIND_CLOUD",
     "MONTH_SIN",
     "MONTH_COS",
     "IS_MONSOON",
     "DAY_OF_YEAR",
+    "GHI_LAG1",
+    "RH2M_LAG1",
+    "CLOUD_LAG1",
+    "GHI_7DAY_MEAN",
     "CITY_Ahmedabad",
     "CITY_Bengaluru",
     "CITY_Bhopal",
@@ -37,6 +55,7 @@
     "CITY_Mumbai",
     "CITY_Pune"
   ],
+  "classification_target": "RISK_LABEL",
   "dropped_from_nb05": [
     "T2M",
     "T2M_MIN"
@@ -47,7 +66,19 @@
     "MONTH_SIN": "sin(2\u03c0 \u00d7 MONTH / 12)",
     "MONTH_COS": "cos(2\u03c0 \u00d7 MONTH / 12)",
     "IS_MONSOON": "1 if SEASON == Monsoon else 0",
-    "DAY_OF_YEAR": "date.dayofyear"
+    "DAY_OF_YEAR": "date.dayofyear",
+    "WIND_CLOUD": "WS10M \u00d7 CLOUD_AMT",
+    "GHI_LAG1": "groupby(city)[GHI].shift(1)",
+    "RH2M_LAG1": "groupby(city)[RH2M].shift(1)",
+    "CLOUD_LAG1": "groupby(city)[CLOUD_AMT].shift(1)",
+    "GHI_7DAY_MEAN": "groupby(city)[GHI].rolling(7, min_periods=1).mean()",
+    "RISK_LABEL": "np.select: 2=Fire Risk, 1=Grid Stress, 0=Normal"
+  },
+  "risk_label_thresholds": {
+    "fire_risk": "T2M_MAX > 42 AND RH2M < 18 AND ALLSKY_SFC_SW_DWN > 5.5",
+    "grid_stress": "CLOUD_AMT > 80",
+    "normal": "default (0)",
+    "ghi_unit": "kWh/m\u00b2/day (NASA POWER) \u2014 5.5 \u2248 650 W/m\u00b2"
   },
   "split": {
     "strategy": "temporal",
@@ -61,7 +92,7 @@
       2023,
       2024
     ],
-    "train_rows": 21915,
+    "train_rows": 21900,
     "test_rows": 10965
   },
   "scaling": {
@@ -70,5 +101,6 @@
     "scaler_core": "outputs/scaler_core.pkl",
     "scaler_ext": "outputs/scaler_extended.pkl"
   },
-  "outliers": "no rows deleted \u2014 outliers carry risk labels (NB05 decision)"
+  "outliers": "no rows deleted \u2014 outliers carry risk labels (NB05 decision)",
+  "lag_nan_rows_dropped": "one per city (shift(1) first row) \u2014 audited in Cell 5b"
 }

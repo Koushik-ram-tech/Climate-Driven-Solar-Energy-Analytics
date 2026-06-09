@@ -1,15 +1,15 @@
 {
   "best_baseline_model": "Random Forest",
-  "best_baseline_test_r2": 0.8162,
-  "best_baseline_test_rmse": 0.6196,
-  "best_baseline_test_mae": 0.4662,
+  "best_baseline_test_r2": 0.8602,
+  "best_baseline_test_rmse": 0.5404,
+  "best_baseline_test_mae": 0.3938,
   "models_trained": [
     "Linear Regression",
     "Ridge Regression",
     "Random Forest"
   ],
-  "ridge_best_alpha": 5.689866029018299,
-  "rf_best_depth": 12,
+  "ridge_best_alpha": 9.102981779915218,
+  "rf_best_depth": 16,
   "features_used": "features_extended",
   "scaler": "scaler_extended.pkl",
   "train_years": [
