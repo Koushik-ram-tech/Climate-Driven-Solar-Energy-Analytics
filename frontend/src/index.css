@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+  }
+
+  body {
+    @apply bg-ink-950 text-slate-200 font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-ink-900; }
+  ::-webkit-scrollbar-thumb { @apply bg-ink-500 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-data-500; }
+
+  ::selection { @apply bg-solar-500/30 text-solar-300; }
+}
+
+@layer components {
+  /* Glass card */
+  .glass {
+    @apply bg-ink-800/60 backdrop-blur-xl border border-white/[0.06] shadow-glass;
+  }
+
+  /* Gradient text */
+  .text-gradient-solar {
+    @apply bg-gradient-to-r from-solar-300 via-solar-400 to-amber-500 bg-clip-text text-transparent;
+  }
+  .text-gradient-data {
+    @apply bg-gradient-to-r from-data-300 to-cyan-400 bg-clip-text text-transparent;
+  }
+
+  /* Glow ring */
+  .ring-glow {
+    box-shadow: 0 0 0 1px rgba(251,191,36,0.3), 0 0 20px rgba(251,191,36,0.1);
+  }
+
+  /* Section anchor */
+  .section-label {
+    @apply text-[10px] font-mono font-medium tracking-[0.2em] text-data-400/60 uppercase;
+  }
+}
+
+/* Ambient orbs */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  will-change: transform;
+}

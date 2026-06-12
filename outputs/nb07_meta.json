@@ -1,8 +1,8 @@
 {
   "best_baseline_model": "Random Forest",
-  "best_baseline_test_r2": 0.8602,
-  "best_baseline_test_rmse": 0.5404,
-  "best_baseline_test_mae": 0.3938,
+  "best_baseline_test_r2": 0.8604,
+  "best_baseline_test_rmse": 0.5401,
+  "best_baseline_test_mae": 0.3936,
   "models_trained": [
     "Linear Regression",
     "Ridge Regression",

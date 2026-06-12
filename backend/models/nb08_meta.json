@@ -1,0 +1,66 @@
+{
+  "best_model_overall": "XGBoost",
+  "best_model_file": "nb08_best_model.pkl",
+  "xgboost_model_file": "xgboost_model.pkl",
+  "xgboost_test_r2": 0.8831,
+  "xgboost_test_rmse": 0.4941,
+  "xgboost_test_mae": 0.3583,
+  "xgboost_test_mape": 9.71,
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "n_estimators": 200
+  },
+  "features_used": "features_extended",
+  "feature_list": [
+    "T2M_MAX",
+    "TEMP_RANGE",
+    "RH2M",
+    "PS",
+    "WS10M",
+    "CLOUD_AMT",
+    "log1p_PREC",
+    "WIND_CLOUD",
+    "MONTH_SIN",
+    "MONTH_COS",
+    "IS_MONSOON",
+    "DAY_OF_YEAR",
+    "GHI_LAG1",
+    "RH2M_LAG1",
+    "CLOUD_LAG1",
+    "GHI_7DAY_MEAN",
+    "CITY_Ahmedabad",
+    "CITY_Bengaluru",
+    "CITY_Bhopal",
+    "CITY_Bhubaneswar",
+    "CITY_Chandigarh",
+    "CITY_Chennai",
+    "CITY_Delhi",
+    "CITY_Guwahati",
+    "CITY_Hyderabad",
+    "CITY_Jaipur",
+    "CITY_Kochi",
+    "CITY_Kolkata",
+    "CITY_Mangalore",
+    "CITY_Mumbai",
+    "CITY_Pune"
+  ],
+  "scaler_file": "scaler_extended.pkl",
+  "train_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "test_years": [
+    2023,
+    2024
+  ],
+  "shap_compatibility": {
+    "explainer_type": "shap.TreeExplainer",
+    "load_with": "joblib.load('outputs/xgboost_model.pkl')",
+    "feature_names": "FEATURES_EXTENDED from nb06_preprocessing_config.json",
+    "background_data": "X_train_scaled (subset of 1000 rows recommended)",
+    "note": "xgboost_model.pkl is directly compatible with shap.TreeExplainer"
+  }
+}

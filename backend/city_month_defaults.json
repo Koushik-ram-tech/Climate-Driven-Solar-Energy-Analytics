@@ -1,0 +1,1112 @@
+{
+  "Ahmedabad": {
+    "1": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 52.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "2": {
+      "GHI_LAG1": 5.9,
+      "RH2M_LAG1": 50.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 5.9
+    },
+    "3": {
+      "GHI_LAG1": 6.4,
+      "RH2M_LAG1": 47.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.4
+    },
+    "4": {
+      "GHI_LAG1": 6.8,
+      "RH2M_LAG1": 43.0,
+      "CLOUD_LAG1": 11.0,
+      "GHI_7DAY_MEAN": 6.8
+    },
+    "5": {
+      "GHI_LAG1": 6.7,
+      "RH2M_LAG1": 47.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 6.7
+    },
+    "6": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 38.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "7": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 58.0,
+      "GHI_7DAY_MEAN": 4.6
+    },
+    "8": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 56.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "9": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "10": {
+      "GHI_LAG1": 5.8,
+      "RH2M_LAG1": 55.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.8
+    },
+    "11": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 49.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "12": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 51.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 4.9
+    }
+  },
+  "Jaipur": {
+    "1": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 55.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "2": {
+      "GHI_LAG1": 5.6,
+      "RH2M_LAG1": 50.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.6
+    },
+    "3": {
+      "GHI_LAG1": 6.3,
+      "RH2M_LAG1": 44.0,
+      "CLOUD_LAG1": 15.0,
+      "GHI_7DAY_MEAN": 6.3
+    },
+    "4": {
+      "GHI_LAG1": 6.9,
+      "RH2M_LAG1": 38.0,
+      "CLOUD_LAG1": 10.0,
+      "GHI_7DAY_MEAN": 6.9
+    },
+    "5": {
+      "GHI_LAG1": 6.8,
+      "RH2M_LAG1": 38.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.8
+    },
+    "6": {
+      "GHI_LAG1": 5.1,
+      "RH2M_LAG1": 50.0,
+      "CLOUD_LAG1": 38.0,
+      "GHI_7DAY_MEAN": 5.1
+    },
+    "7": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 67.0,
+      "CLOUD_LAG1": 60.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "8": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 69.0,
+      "CLOUD_LAG1": 58.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "9": {
+      "GHI_LAG1": 5.3,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 5.3
+    },
+    "10": {
+      "GHI_LAG1": 5.7,
+      "RH2M_LAG1": 47.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.7
+    },
+    "11": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 44.0,
+      "CLOUD_LAG1": 12.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "12": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 53.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 4.7
+    }
+  },
+  "Delhi": {
+    "1": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 63.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "2": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 57.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "3": {
+      "GHI_LAG1": 5.9,
+      "RH2M_LAG1": 48.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.9
+    },
+    "4": {
+      "GHI_LAG1": 6.5,
+      "RH2M_LAG1": 38.0,
+      "CLOUD_LAG1": 12.0,
+      "GHI_7DAY_MEAN": 6.5
+    },
+    "5": {
+      "GHI_LAG1": 6.6,
+      "RH2M_LAG1": 38.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.6
+    },
+    "6": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 52.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "7": {
+      "GHI_LAG1": 4.4,
+      "RH2M_LAG1": 68.0,
+      "CLOUD_LAG1": 62.0,
+      "GHI_7DAY_MEAN": 4.4
+    },
+    "8": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 65.0,
+      "GHI_7DAY_MEAN": 4.6
+    },
+    "9": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 46.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "10": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 53.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "11": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 51.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "12": {
+      "GHI_LAG1": 4.3,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 26.0,
+      "GHI_7DAY_MEAN": 4.3
+    }
+  },
+  "Bhopal": {
+    "1": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 56.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "2": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 52.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "3": {
+      "GHI_LAG1": 6.1,
+      "RH2M_LAG1": 46.0,
+      "CLOUD_LAG1": 15.0,
+      "GHI_7DAY_MEAN": 6.1
+    },
+    "4": {
+      "GHI_LAG1": 6.5,
+      "RH2M_LAG1": 37.0,
+      "CLOUD_LAG1": 10.0,
+      "GHI_7DAY_MEAN": 6.5
+    },
+    "5": {
+      "GHI_LAG1": 6.4,
+      "RH2M_LAG1": 38.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.4
+    },
+    "6": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 58.0,
+      "CLOUD_LAG1": 42.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "7": {
+      "GHI_LAG1": 4.1,
+      "RH2M_LAG1": 76.0,
+      "CLOUD_LAG1": 68.0,
+      "GHI_7DAY_MEAN": 4.1
+    },
+    "8": {
+      "GHI_LAG1": 4.3,
+      "RH2M_LAG1": 79.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 4.3
+    },
+    "9": {
+      "GHI_LAG1": 5.1,
+      "RH2M_LAG1": 69.0,
+      "CLOUD_LAG1": 50.0,
+      "GHI_7DAY_MEAN": 5.1
+    },
+    "10": {
+      "GHI_LAG1": 5.6,
+      "RH2M_LAG1": 53.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.6
+    },
+    "11": {
+      "GHI_LAG1": 5.1,
+      "RH2M_LAG1": 45.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 5.1
+    },
+    "12": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 53.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 4.6
+    }
+  },
+  "Hyderabad": {
+    "1": {
+      "GHI_LAG1": 5.3,
+      "RH2M_LAG1": 54.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.3
+    },
+    "2": {
+      "GHI_LAG1": 5.8,
+      "RH2M_LAG1": 51.0,
+      "CLOUD_LAG1": 17.0,
+      "GHI_7DAY_MEAN": 5.8
+    },
+    "3": {
+      "GHI_LAG1": 6.3,
+      "RH2M_LAG1": 46.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.3
+    },
+    "4": {
+      "GHI_LAG1": 6.6,
+      "RH2M_LAG1": 40.0,
+      "CLOUD_LAG1": 12.0,
+      "GHI_7DAY_MEAN": 6.6
+    },
+    "5": {
+      "GHI_LAG1": 6.2,
+      "RH2M_LAG1": 42.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 6.2
+    },
+    "6": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 56.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 4.7
+    },
+    "7": {
+      "GHI_LAG1": 4.1,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 65.0,
+      "GHI_7DAY_MEAN": 4.1
+    },
+    "8": {
+      "GHI_LAG1": 4.3,
+      "RH2M_LAG1": 75.0,
+      "CLOUD_LAG1": 70.0,
+      "GHI_7DAY_MEAN": 4.3
+    },
+    "9": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 70.0,
+      "CLOUD_LAG1": 55.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "10": {
+      "GHI_LAG1": 5.5,
+      "RH2M_LAG1": 58.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 5.5
+    },
+    "11": {
+      "GHI_LAG1": 5.3,
+      "RH2M_LAG1": 52.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.3
+    },
+    "12": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 53.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.0
+    }
+  },
+  "Pune": {
+    "1": {
+      "GHI_LAG1": 5.1,
+      "RH2M_LAG1": 51.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.1
+    },
+    "2": {
+      "GHI_LAG1": 5.7,
+      "RH2M_LAG1": 49.0,
+      "CLOUD_LAG1": 15.0,
+      "GHI_7DAY_MEAN": 5.7
+    },
+    "3": {
+      "GHI_LAG1": 6.2,
+      "RH2M_LAG1": 45.0,
+      "CLOUD_LAG1": 13.0,
+      "GHI_7DAY_MEAN": 6.2
+    },
+    "4": {
+      "GHI_LAG1": 6.5,
+      "RH2M_LAG1": 40.0,
+      "CLOUD_LAG1": 10.0,
+      "GHI_7DAY_MEAN": 6.5
+    },
+    "5": {
+      "GHI_LAG1": 6.1,
+      "RH2M_LAG1": 43.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.1
+    },
+    "6": {
+      "GHI_LAG1": 4.4,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 42.0,
+      "GHI_7DAY_MEAN": 4.4
+    },
+    "7": {
+      "GHI_LAG1": 3.8,
+      "RH2M_LAG1": 80.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 3.8
+    },
+    "8": {
+      "GHI_LAG1": 4.0,
+      "RH2M_LAG1": 83.0,
+      "CLOUD_LAG1": 76.0,
+      "GHI_7DAY_MEAN": 4.0
+    },
+    "9": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 58.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "10": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 57.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "11": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 46.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "12": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 48.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 4.8
+    }
+  },
+  "Bengaluru": {
+    "1": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 57.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "2": {
+      "GHI_LAG1": 5.5,
+      "RH2M_LAG1": 54.0,
+      "CLOUD_LAG1": 19.0,
+      "GHI_7DAY_MEAN": 5.5
+    },
+    "3": {
+      "GHI_LAG1": 6.0,
+      "RH2M_LAG1": 50.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 6.0
+    },
+    "4": {
+      "GHI_LAG1": 6.2,
+      "RH2M_LAG1": 46.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 6.2
+    },
+    "5": {
+      "GHI_LAG1": 5.9,
+      "RH2M_LAG1": 52.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.9
+    },
+    "6": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 66.0,
+      "CLOUD_LAG1": 48.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "7": {
+      "GHI_LAG1": 3.9,
+      "RH2M_LAG1": 76.0,
+      "CLOUD_LAG1": 68.0,
+      "GHI_7DAY_MEAN": 3.9
+    },
+    "8": {
+      "GHI_LAG1": 4.1,
+      "RH2M_LAG1": 78.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 4.1
+    },
+    "9": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 60.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "10": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 63.0,
+      "CLOUD_LAG1": 38.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "11": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 58.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "12": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 58.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 4.7
+    }
+  },
+  "Chennai": {
+    "1": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 68.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "2": {
+      "GHI_LAG1": 5.9,
+      "RH2M_LAG1": 67.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.9
+    },
+    "3": {
+      "GHI_LAG1": 6.3,
+      "RH2M_LAG1": 67.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 6.3
+    },
+    "4": {
+      "GHI_LAG1": 6.5,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 6.5
+    },
+    "5": {
+      "GHI_LAG1": 6.0,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 6.0
+    },
+    "6": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 4.6
+    },
+    "7": {
+      "GHI_LAG1": 4.0,
+      "RH2M_LAG1": 67.0,
+      "CLOUD_LAG1": 62.0,
+      "GHI_7DAY_MEAN": 4.0
+    },
+    "8": {
+      "GHI_LAG1": 4.3,
+      "RH2M_LAG1": 71.0,
+      "CLOUD_LAG1": 68.0,
+      "GHI_7DAY_MEAN": 4.3
+    },
+    "9": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 62.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "10": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 78.0,
+      "CLOUD_LAG1": 48.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "11": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 77.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "12": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 71.0,
+      "CLOUD_LAG1": 26.0,
+      "GHI_7DAY_MEAN": 5.0
+    }
+  },
+  "Kochi": {
+    "1": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "2": {
+      "GHI_LAG1": 5.5,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.5
+    },
+    "3": {
+      "GHI_LAG1": 5.8,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.8
+    },
+    "4": {
+      "GHI_LAG1": 5.7,
+      "RH2M_LAG1": 76.0,
+      "CLOUD_LAG1": 30.0,
+      "GHI_7DAY_MEAN": 5.7
+    },
+    "5": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 79.0,
+      "CLOUD_LAG1": 42.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "6": {
+      "GHI_LAG1": 3.5,
+      "RH2M_LAG1": 87.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 3.5
+    },
+    "7": {
+      "GHI_LAG1": 3.1,
+      "RH2M_LAG1": 89.0,
+      "CLOUD_LAG1": 80.0,
+      "GHI_7DAY_MEAN": 3.1
+    },
+    "8": {
+      "GHI_LAG1": 3.3,
+      "RH2M_LAG1": 88.0,
+      "CLOUD_LAG1": 78.0,
+      "GHI_7DAY_MEAN": 3.3
+    },
+    "9": {
+      "GHI_LAG1": 4.2,
+      "RH2M_LAG1": 85.0,
+      "CLOUD_LAG1": 68.0,
+      "GHI_7DAY_MEAN": 4.2
+    },
+    "10": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 83.0,
+      "CLOUD_LAG1": 55.0,
+      "GHI_7DAY_MEAN": 4.6
+    },
+    "11": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 79.0,
+      "CLOUD_LAG1": 38.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "12": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 75.0,
+      "CLOUD_LAG1": 26.0,
+      "GHI_7DAY_MEAN": 4.7
+    }
+  },
+  "Mangalore": {
+    "1": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "2": {
+      "GHI_LAG1": 5.5,
+      "RH2M_LAG1": 71.0,
+      "CLOUD_LAG1": 21.0,
+      "GHI_7DAY_MEAN": 5.5
+    },
+    "3": {
+      "GHI_LAG1": 5.9,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.9
+    },
+    "4": {
+      "GHI_LAG1": 5.8,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 5.8
+    },
+    "5": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 78.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 4.7
+    },
+    "6": {
+      "GHI_LAG1": 3.4,
+      "RH2M_LAG1": 86.0,
+      "CLOUD_LAG1": 70.0,
+      "GHI_7DAY_MEAN": 3.4
+    },
+    "7": {
+      "GHI_LAG1": 3.0,
+      "RH2M_LAG1": 88.0,
+      "CLOUD_LAG1": 78.0,
+      "GHI_7DAY_MEAN": 3.0
+    },
+    "8": {
+      "GHI_LAG1": 3.2,
+      "RH2M_LAG1": 87.0,
+      "CLOUD_LAG1": 76.0,
+      "GHI_7DAY_MEAN": 3.2
+    },
+    "9": {
+      "GHI_LAG1": 4.1,
+      "RH2M_LAG1": 83.0,
+      "CLOUD_LAG1": 65.0,
+      "GHI_7DAY_MEAN": 4.1
+    },
+    "10": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 80.0,
+      "CLOUD_LAG1": 50.0,
+      "GHI_7DAY_MEAN": 4.7
+    },
+    "11": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 77.0,
+      "CLOUD_LAG1": 36.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "12": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 25.0,
+      "GHI_7DAY_MEAN": 4.7
+    }
+  },
+  "Bhubaneswar": {
+    "1": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "2": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 62.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "3": {
+      "GHI_LAG1": 6.0,
+      "RH2M_LAG1": 58.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 6.0
+    },
+    "4": {
+      "GHI_LAG1": 6.3,
+      "RH2M_LAG1": 55.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.3
+    },
+    "5": {
+      "GHI_LAG1": 6.0,
+      "RH2M_LAG1": 58.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 6.0
+    },
+    "6": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 50.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "7": {
+      "GHI_LAG1": 3.9,
+      "RH2M_LAG1": 83.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 3.9
+    },
+    "8": {
+      "GHI_LAG1": 4.1,
+      "RH2M_LAG1": 84.0,
+      "CLOUD_LAG1": 75.0,
+      "GHI_7DAY_MEAN": 4.1
+    },
+    "9": {
+      "GHI_LAG1": 4.9,
+      "RH2M_LAG1": 77.0,
+      "CLOUD_LAG1": 56.0,
+      "GHI_7DAY_MEAN": 4.9
+    },
+    "10": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 66.0,
+      "CLOUD_LAG1": 30.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "11": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "12": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 63.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 4.6
+    }
+  },
+  "Kolkata": {
+    "1": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 69.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 4.7
+    },
+    "2": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 68.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "3": {
+      "GHI_LAG1": 5.8,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.8
+    },
+    "4": {
+      "GHI_LAG1": 6.0,
+      "RH2M_LAG1": 62.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 6.0
+    },
+    "5": {
+      "GHI_LAG1": 5.6,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 22.0,
+      "GHI_7DAY_MEAN": 5.6
+    },
+    "6": {
+      "GHI_LAG1": 4.2,
+      "RH2M_LAG1": 76.0,
+      "CLOUD_LAG1": 55.0,
+      "GHI_7DAY_MEAN": 4.2
+    },
+    "7": {
+      "GHI_LAG1": 3.7,
+      "RH2M_LAG1": 83.0,
+      "CLOUD_LAG1": 74.0,
+      "GHI_7DAY_MEAN": 3.7
+    },
+    "8": {
+      "GHI_LAG1": 3.9,
+      "RH2M_LAG1": 84.0,
+      "CLOUD_LAG1": 76.0,
+      "GHI_7DAY_MEAN": 3.9
+    },
+    "9": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 80.0,
+      "CLOUD_LAG1": 62.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "10": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 38.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "11": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 68.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "12": {
+      "GHI_LAG1": 4.4,
+      "RH2M_LAG1": 67.0,
+      "CLOUD_LAG1": 24.0,
+      "GHI_7DAY_MEAN": 4.4
+    }
+  },
+  "Guwahati": {
+    "1": {
+      "GHI_LAG1": 4.2,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 32.0,
+      "GHI_7DAY_MEAN": 4.2
+    },
+    "2": {
+      "GHI_LAG1": 4.8,
+      "RH2M_LAG1": 72.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 4.8
+    },
+    "3": {
+      "GHI_LAG1": 5.3,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 26.0,
+      "GHI_7DAY_MEAN": 5.3
+    },
+    "4": {
+      "GHI_LAG1": 5.5,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 5.5
+    },
+    "5": {
+      "GHI_LAG1": 5.1,
+      "RH2M_LAG1": 77.0,
+      "CLOUD_LAG1": 34.0,
+      "GHI_7DAY_MEAN": 5.1
+    },
+    "6": {
+      "GHI_LAG1": 3.9,
+      "RH2M_LAG1": 82.0,
+      "CLOUD_LAG1": 60.0,
+      "GHI_7DAY_MEAN": 3.9
+    },
+    "7": {
+      "GHI_LAG1": 3.4,
+      "RH2M_LAG1": 84.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 3.4
+    },
+    "8": {
+      "GHI_LAG1": 3.7,
+      "RH2M_LAG1": 84.0,
+      "CLOUD_LAG1": 72.0,
+      "GHI_7DAY_MEAN": 3.7
+    },
+    "9": {
+      "GHI_LAG1": 4.2,
+      "RH2M_LAG1": 82.0,
+      "CLOUD_LAG1": 62.0,
+      "GHI_7DAY_MEAN": 4.2
+    },
+    "10": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 78.0,
+      "CLOUD_LAG1": 44.0,
+      "GHI_7DAY_MEAN": 4.7
+    },
+    "11": {
+      "GHI_LAG1": 4.3,
+      "RH2M_LAG1": 74.0,
+      "CLOUD_LAG1": 32.0,
+      "GHI_7DAY_MEAN": 4.3
+    },
+    "12": {
+      "GHI_LAG1": 3.9,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 30.0,
+      "GHI_7DAY_MEAN": 3.9
+    }
+  },
+  "Mumbai": {
+    "1": {
+      "GHI_LAG1": 5.3,
+      "RH2M_LAG1": 63.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 5.3
+    },
+    "2": {
+      "GHI_LAG1": 5.8,
+      "RH2M_LAG1": 63.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 5.8
+    },
+    "3": {
+      "GHI_LAG1": 6.2,
+      "RH2M_LAG1": 66.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.2
+    },
+    "4": {
+      "GHI_LAG1": 6.5,
+      "RH2M_LAG1": 67.0,
+      "CLOUD_LAG1": 14.0,
+      "GHI_7DAY_MEAN": 6.5
+    },
+    "5": {
+      "GHI_LAG1": 6.1,
+      "RH2M_LAG1": 69.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 6.1
+    },
+    "6": {
+      "GHI_LAG1": 4.0,
+      "RH2M_LAG1": 80.0,
+      "CLOUD_LAG1": 60.0,
+      "GHI_7DAY_MEAN": 4.0
+    },
+    "7": {
+      "GHI_LAG1": 3.4,
+      "RH2M_LAG1": 86.0,
+      "CLOUD_LAG1": 78.0,
+      "GHI_7DAY_MEAN": 3.4
+    },
+    "8": {
+      "GHI_LAG1": 3.7,
+      "RH2M_LAG1": 85.0,
+      "CLOUD_LAG1": 76.0,
+      "GHI_7DAY_MEAN": 3.7
+    },
+    "9": {
+      "GHI_LAG1": 4.6,
+      "RH2M_LAG1": 80.0,
+      "CLOUD_LAG1": 62.0,
+      "GHI_7DAY_MEAN": 4.6
+    },
+    "10": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 73.0,
+      "CLOUD_LAG1": 38.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "11": {
+      "GHI_LAG1": 5.3,
+      "RH2M_LAG1": 66.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.3
+    },
+    "12": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 62.0,
+      "CLOUD_LAG1": 16.0,
+      "GHI_7DAY_MEAN": 5.0
+    }
+  },
+  "Chandigarh": {
+    "1": {
+      "GHI_LAG1": 3.8,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 32.0,
+      "GHI_7DAY_MEAN": 3.8
+    },
+    "2": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 60.0,
+      "CLOUD_LAG1": 26.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "3": {
+      "GHI_LAG1": 5.4,
+      "RH2M_LAG1": 52.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.4
+    },
+    "4": {
+      "GHI_LAG1": 6.2,
+      "RH2M_LAG1": 40.0,
+      "CLOUD_LAG1": 12.0,
+      "GHI_7DAY_MEAN": 6.2
+    },
+    "5": {
+      "GHI_LAG1": 6.3,
+      "RH2M_LAG1": 36.0,
+      "CLOUD_LAG1": 10.0,
+      "GHI_7DAY_MEAN": 6.3
+    },
+    "6": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 46.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "7": {
+      "GHI_LAG1": 4.5,
+      "RH2M_LAG1": 65.0,
+      "CLOUD_LAG1": 54.0,
+      "GHI_7DAY_MEAN": 4.5
+    },
+    "8": {
+      "GHI_LAG1": 4.7,
+      "RH2M_LAG1": 70.0,
+      "CLOUD_LAG1": 60.0,
+      "GHI_7DAY_MEAN": 4.7
+    },
+    "9": {
+      "GHI_LAG1": 5.0,
+      "RH2M_LAG1": 62.0,
+      "CLOUD_LAG1": 40.0,
+      "GHI_7DAY_MEAN": 5.0
+    },
+    "10": {
+      "GHI_LAG1": 5.2,
+      "RH2M_LAG1": 50.0,
+      "CLOUD_LAG1": 20.0,
+      "GHI_7DAY_MEAN": 5.2
+    },
+    "11": {
+      "GHI_LAG1": 4.4,
+      "RH2M_LAG1": 50.0,
+      "CLOUD_LAG1": 18.0,
+      "GHI_7DAY_MEAN": 4.4
+    },
+    "12": {
+      "GHI_LAG1": 3.5,
+      "RH2M_LAG1": 62.0,
+      "CLOUD_LAG1": 28.0,
+      "GHI_7DAY_MEAN": 3.5
+    }
+  }
+}
