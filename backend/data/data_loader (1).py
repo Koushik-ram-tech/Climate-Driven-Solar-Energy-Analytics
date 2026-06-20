@@ -84,6 +84,8 @@ from typing import Dict, List
 
 import pandas as pd
 
+from utils.exceptions import DataLoaderError  # noqa: E402 — single authoritative definition
+
 logger = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -221,15 +223,10 @@ class AdvisorRow:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Custom exception
+# Exception
+# DataLoaderError is imported from utils.exceptions — single definition.
+# All raise sites in this module use the imported class unchanged.
 # ─────────────────────────────────────────────────────────────────────────────
-
-class DataLoaderError(RuntimeError):
-    """
-    Raised when CSV loading or schema validation fails.
-    Caught in main.py lifespan handler; application refuses to start.
-    Never suppressed silently — a broken data layer must be visible immediately.
-    """
 
 
 # ─────────────────────────────────────────────────────────────────────────────
