@@ -77,7 +77,7 @@ from __future__ import annotations
 
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Supported cities
@@ -163,8 +163,6 @@ class AdvisorRequest(BaseModel):
         ),
         examples=[400_000.0],
     )
-
-    from pydantic import ConfigDict
 
     model_config = ConfigDict(
         extra="forbid",
