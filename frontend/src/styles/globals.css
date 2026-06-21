@@ -1,0 +1,95 @@
+/**
+ * src/styles/globals.css
+ * ─────────────────────────────────────────────────────────────────────────
+ * Tailwind directives + global theme layer.
+ *
+ * Type pairing (deliberate, not a Tailwind default):
+ *   --font-display  Inter Tight   — used tight, heavy, at large sizes only.
+ *                                   Carries the editorial/research voice.
+ *   --font-body      Inter        — body copy, UI labels, form text.
+ *   --font-mono      JetBrains Mono — eyebrows, metric values, units.
+ *                                   Numbers read as measured data, not
+ *                                   marketing copy — this is the one
+ *                                   semantic job the mono face does.
+ *
+ * Signature element: a 1px black hairline rule system (borders, dividers,
+ * focus rings) is the only structural accent in the product — no shadows,
+ * no radius, no gradients, per the locked design system.
+ * ─────────────────────────────────────────────────────────────────────────
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Inter Tight", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+@layer base {
+  * {
+    @apply border-ink;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink font-body antialiased;
+    font-feature-settings: "tnum" 1, "ss01" 1;
+  }
+
+  /* Hairline focus ring — the same visual language as card/divider
+     borders, so keyboard focus reads as part of the design system
+     rather than a browser default override. */
+  :focus-visible {
+    outline: 2px solid theme("colors.orange.DEFAULT");
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: theme("colors.orange.DEFAULT");
+    color: theme("colors.cream.DEFAULT");
+  }
+
+  /* Thin, unobtrusive scrollbar matching the hairline system. */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme("colors.cream.DEFAULT");
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme("colors.ink.100");
+    border: 2px solid theme("colors.cream.DEFAULT");
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme("colors.ink.300");
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* Eyebrow label utility — mono, tracked caps, used before section
+     titles and as a structural device that encodes "this is a labelled
+     research finding," not decoration. */
+  .text-eyebrow {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+  }
+}
+

@@ -1,0 +1,17 @@
+/**
+ * src/app/App.tsx
+ */
+
+import { RouterProvider } from "react-router-dom";
+import { Providers } from "@app/providers";
+import { router } from "@app/router";
+
+export function App() {
+  return (
+    <Providers>
+      <RouterProvider router={router} />
+    </Providers>
+  );
+}
+
+export default App;
