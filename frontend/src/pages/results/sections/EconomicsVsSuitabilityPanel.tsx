@@ -2,7 +2,7 @@
  * src/pages/results/sections/EconomicsVsSuitabilityPanel.tsx
  */
 
-import type { AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, DisplayLG, Body } from "@components/ui/Text";
 import { ReliabilityGauge } from "@features/readiness/components/ReliabilityGauge";

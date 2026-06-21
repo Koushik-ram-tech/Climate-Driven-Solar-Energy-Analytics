@@ -3,7 +3,7 @@
  */
 
 import { useLocation, useParams, Link } from "react-router-dom";
-import type { AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
 import { PageShell } from "@components/layout/PageShell";
 import { EmptyState } from "@components/feedback/EmptyState";
 import { buttonClasses } from "@components/ui/Button";

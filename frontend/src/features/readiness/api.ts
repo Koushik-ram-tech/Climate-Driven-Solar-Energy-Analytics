@@ -10,7 +10,7 @@
 
 import { apiClient } from "@lib/api/client";
 import { ENDPOINTS } from "@lib/api/endpoints";
-import type { ReadinessResponse } from "@types/api/readiness.types";
+import type { ReadinessResponse } from "@app-types/api/readiness.types";
 
 export function getReadiness(city: string): Promise<ReadinessResponse> {
   return apiClient.get<ReadinessResponse>(ENDPOINTS.readiness(city));

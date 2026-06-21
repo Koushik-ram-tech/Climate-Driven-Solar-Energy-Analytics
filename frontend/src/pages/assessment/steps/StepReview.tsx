@@ -4,7 +4,7 @@
 
 import { useFormContext } from "react-hook-form";
 import type { AdvisorFormValues } from "@features/advisor/advisorFormSchema";
-import type { AdvisorRequest } from "@types/api/advisor.types";
+import type { AdvisorRequest } from "@app-types/api/advisor.types";
 import { ResultSummaryCard } from "@features/advisor/components/ResultSummaryCard";
 import { Button } from "@components/ui/Button";
 import { DisplaySM, BodySmall } from "@components/ui/Text";

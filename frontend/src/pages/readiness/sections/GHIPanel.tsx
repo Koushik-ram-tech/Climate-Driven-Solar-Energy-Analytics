@@ -2,7 +2,7 @@
  * src/pages/readiness/sections/GHIPanel.tsx
  */
 
-import type { ReadinessResponse } from "@types/api/readiness.types";
+import type { ReadinessResponse } from "@app-types/api/readiness.types";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, DisplayLG } from "@components/ui/Text";
 import { MetricCard } from "@components/data-display/MetricCard";

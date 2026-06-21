@@ -2,7 +2,7 @@
  * src/components/data-display/RecommendationBadge.tsx
  */
 
-import type { InvestmentRecommendation } from "@types/shared.types";
+import type { InvestmentRecommendation } from "@app-types/shared.types";
 import { cn } from "@lib/utils/cn";
 
 export interface RecommendationBadgeProps {

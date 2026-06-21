@@ -13,8 +13,8 @@
  * ─────────────────────────────────────────────────────────────────────────
  */
 
-import type { AdvisorResponse } from "@types/api/advisor.types";
-import type { Suitability } from "@types/shared.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
+import type { Suitability } from "@app-types/shared.types";
 import { Section } from "@components/layout/Section";
 import { Card } from "@components/ui/Card";
 import { Eyebrow, DisplayLG, DisplaySM, Body, Caption, DataValue } from "@components/ui/Text";

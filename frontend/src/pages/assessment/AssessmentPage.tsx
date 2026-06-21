@@ -6,7 +6,7 @@ import { PageShell } from "@components/layout/PageShell";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, DisplayLG } from "@components/ui/Text";
 import { AdvisorForm } from "@features/advisor/components/AdvisorForm";
-import type { AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
 
 export function AssessmentPage() {
   function handleSuccess(_result: AdvisorResponse) {

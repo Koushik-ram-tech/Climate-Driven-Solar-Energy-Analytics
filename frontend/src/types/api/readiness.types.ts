@@ -11,7 +11,7 @@
  * ─────────────────────────────────────────────────────────────────────────
  */
 
-import type { PredictionConfidence, RSCategory, Suitability } from "@types/shared.types";
+import type { PredictionConfidence, RSCategory, Suitability } from "@app-types/shared.types";
 
 export interface ReadinessResponse {
   /** City name, exactly as it appears in sdsf_city_dashboard.csv. */

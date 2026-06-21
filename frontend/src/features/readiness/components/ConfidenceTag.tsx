@@ -2,7 +2,7 @@
  * src/features/readiness/components/ConfidenceTag.tsx
  */
 
-import type { PredictionConfidence } from "@types/shared.types";
+import type { PredictionConfidence } from "@app-types/shared.types";
 import { cn } from "@lib/utils/cn";
 
 export interface ConfidenceTagProps {

@@ -2,7 +2,7 @@
  * src/features/advisor/components/ResultSummaryCard.tsx
  */
 
-import type { AdvisorRequest } from "@types/api/advisor.types";
+import type { AdvisorRequest } from "@app-types/api/advisor.types";
 import { formatINR } from "@lib/format/currency";
 import { Button } from "@components/ui/Button";
 

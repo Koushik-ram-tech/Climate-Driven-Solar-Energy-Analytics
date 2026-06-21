@@ -5,7 +5,7 @@
 import { Link } from "react-router-dom";
 import { Section } from "@components/layout/Section";
 import { Eyebrow } from "@components/ui/Text";
-import { SUPPORTED_CITIES } from "@types/shared.types";
+import { SUPPORTED_CITIES } from "@app-types/shared.types";
 import { toCitySlug } from "@lib/utils/slug";
 
 export function CitiesStrip() {

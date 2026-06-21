@@ -2,7 +2,7 @@
  * src/features/readiness/components/ReliabilityGauge.tsx
  */
 
-import type { RSCategory } from "@types/shared.types";
+import type { RSCategory } from "@app-types/shared.types";
 import { GaugeChart } from "@components/data-display/GaugeChart";
 
 export interface ReliabilityGaugeProps {

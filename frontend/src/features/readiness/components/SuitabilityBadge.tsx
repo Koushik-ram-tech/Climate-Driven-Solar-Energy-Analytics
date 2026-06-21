@@ -2,7 +2,7 @@
  * src/features/readiness/components/SuitabilityBadge.tsx
  */
 
-import type { Suitability } from "@types/shared.types";
+import type { Suitability } from "@app-types/shared.types";
 import { cn } from "@lib/utils/cn";
 
 export interface SuitabilityBadgeProps {

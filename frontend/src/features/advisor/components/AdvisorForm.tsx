@@ -8,13 +8,14 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate } from "react-router-dom";
 import { advisorFormSchema, type AdvisorFormValues } from "@features/advisor/advisorFormSchema";
 import { useAdvisorMutation } from "@features/advisor/hooks";
-import type { AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
 import { StepCity } from "@pages/assessment/steps/StepCity";
 import { StepBill } from "@pages/assessment/steps/StepBill";
 import { StepRoof } from "@pages/assessment/steps/StepRoof";
 import { StepBudget } from "@pages/assessment/steps/StepBudget";
 import { StepReview } from "@pages/assessment/steps/StepReview";
 import { ProgressDots } from "@components/ui/ProgressDots";
+import type { SupportedCity } from "@app-types/shared.types";
 
 export interface AdvisorFormProps {
   onSubmitSuccess: (result: AdvisorResponse) => void;
@@ -50,7 +51,10 @@ export function AdvisorForm({ onSubmitSuccess }: AdvisorFormProps) {
 
   async function handleFinalSubmit(values: AdvisorFormValues) {
     try {
-      const result = await mutation.mutateAsync(values);
+      const result = await mutation.mutateAsync({
+        ...values,
+        city: values.city as SupportedCity,
+    });
       onSubmitSuccess(result);
       navigate(`/results/${result.city_slug}`, { state: { result } });
     } catch {

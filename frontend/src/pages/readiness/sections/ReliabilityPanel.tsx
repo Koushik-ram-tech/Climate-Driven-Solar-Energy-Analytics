@@ -2,7 +2,7 @@
  * src/pages/readiness/sections/ReliabilityPanel.tsx
  */
 
-import type { ReadinessResponse } from "@types/api/readiness.types";
+import type { ReadinessResponse } from "@app-types/api/readiness.types";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, DisplayLG, Body } from "@components/ui/Text";
 import { ReliabilityGauge } from "@features/readiness/components/ReliabilityGauge";

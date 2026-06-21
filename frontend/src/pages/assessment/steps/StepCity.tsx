@@ -5,7 +5,7 @@
 import { useFormContext } from "react-hook-form";
 import type { AdvisorFormValues } from "@features/advisor/advisorFormSchema";
 import { CitySelector } from "@features/cities/CitySelector";
-import type { SupportedCity } from "@types/shared.types";
+import type { SupportedCity } from "@app-types/shared.types";
 import { Button } from "@components/ui/Button";
 import { DisplaySM } from "@components/ui/Text";
 

@@ -19,7 +19,7 @@ import { SuitabilityBadge } from "@features/readiness/components/SuitabilityBadg
 import { ConfidenceTag } from "@features/readiness/components/ConfidenceTag";
 import { ProgressBar } from "@components/data-display/ProgressBar";
 import { getReadiness } from "@features/readiness/api";
-import { SUPPORTED_CITIES } from "@types/shared.types";
+import { SUPPORTED_CITIES } from "@app-types/shared.types";
 import { toCitySlug } from "@lib/utils/slug";
 
 export function CitiesExplorerPage() {

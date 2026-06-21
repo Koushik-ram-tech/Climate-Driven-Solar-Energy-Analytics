@@ -19,7 +19,7 @@ import type {
   PredictionConfidence,
   Suitability,
   SupportedCity,
-} from "@types/shared.types";
+} from "@app-types/shared.types";
 
 export interface AdvisorRequest {
   /** Must be one of the 15 supported Indian cities. */

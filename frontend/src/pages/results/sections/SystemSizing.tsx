@@ -2,7 +2,7 @@
  * src/pages/results/sections/SystemSizing.tsx
  */
 
-import type { AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, DisplayLG } from "@components/ui/Text";
 import { MetricCard } from "@components/data-display/MetricCard";

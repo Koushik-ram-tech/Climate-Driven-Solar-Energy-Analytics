@@ -4,8 +4,8 @@
 
 import { useCities } from "@features/cities/hooks";
 import { Select } from "@components/ui/Select";
-import type { SupportedCity } from "@types/shared.types";
-import { SUPPORTED_CITIES } from "@types/shared.types";
+import type { SupportedCity } from "@app-types/shared.types";
+import { SUPPORTED_CITIES } from "@app-types/shared.types";
 
 export interface CitySelectorProps {
   value: SupportedCity | null;

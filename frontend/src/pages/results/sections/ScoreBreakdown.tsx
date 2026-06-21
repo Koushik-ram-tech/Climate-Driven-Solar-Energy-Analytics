@@ -11,8 +11,8 @@
  * ─────────────────────────────────────────────────────────────────────────
  */
 
-import type { AdvisorResponse } from "@types/api/advisor.types";
-import type { Suitability } from "@types/shared.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
+import type { Suitability } from "@app-types/shared.types";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, DisplayLG, Caption } from "@components/ui/Text";
 import { GaugeChart } from "@components/data-display/GaugeChart";

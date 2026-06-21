@@ -15,7 +15,7 @@
  */
 
 import { z } from "zod";
-import { SUPPORTED_CITIES } from "@types/shared.types";
+import { SUPPORTED_CITIES } from "@app-types/shared.types";
 
 export const advisorFormSchema = z.object({
   city: z.enum(SUPPORTED_CITIES as [string, ...string[]]),

@@ -7,7 +7,7 @@
 
 import { apiClient } from "@lib/api/client";
 import { ENDPOINTS } from "@lib/api/endpoints";
-import type { AdvisorRequest, AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorRequest, AdvisorResponse } from "@app-types/api/advisor.types";
 
 export function postAdvisor(payload: AdvisorRequest): Promise<AdvisorResponse> {
   return apiClient.post<AdvisorResponse>(ENDPOINTS.advisor, payload);

@@ -2,7 +2,7 @@
  * src/pages/results/sections/Recommendation.tsx
  */
 
-import type { AdvisorResponse } from "@types/api/advisor.types";
+import type { AdvisorResponse } from "@app-types/api/advisor.types";
 import { Section } from "@components/layout/Section";
 import { Eyebrow, Body } from "@components/ui/Text";
 import { RecommendationBadge } from "@components/data-display/RecommendationBadge";
